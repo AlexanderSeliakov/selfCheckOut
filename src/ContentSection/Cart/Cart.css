@@ -1,0 +1,54 @@
+.CartList {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    text-align: center;
+    width: 70%;
+    max-width: 760px;
+    height: auto;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+
+.CartCard {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    border: #eee 2px solid;
+}
+  
+.CartCard>div {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: stretch; */
+}
+
+.CartCard div>img {
+    width: 100px;
+    height: auto;
+}
+
+.OrderConfig {
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.OrderConfig p{
+    margin-bottom: 1rem;
+}
+
+.OrderConfig > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

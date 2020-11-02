@@ -1,0 +1,76 @@
+.BurgerConfig {
+    text-align: center;
+    /* height: auto; */
+    /* overflow:scroll; */
+}
+
+.Confing {
+    width: 100%;
+    /* position: relative; */
+    /* float:left; */
+    /* width:30%; */
+    height: auto;
+    /* border: solid; */
+    overflow: scroll;
+    /* display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   justify-content: center; */
+}
+
+.IngredientsList {
+    /* flex-wrap: wrap;
+    display: flex;
+    justify-content: safe;
+    align-items: center;     */
+    /* border: solid; */
+    height: auto;
+    display: grid;
+    /* width: 100%; */
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: auto;
+    gap: 1rem 5%;
+}
+
+/* .Ateria{
+    height:100%; 
+    position: relative;
+} */
+
+
+
+
+
+/* .Ingredient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    margin: 1rem;
+    text-transform: capitalize; 
+} */
+
+.ateria {
+    margin-top: 2rem;
+    border: solid;
+}
+
+@media(max-width: 600px) {
+    .IngredientsList {
+        /* margin: 1rem 5px;
+        flex-basis: auto; */
+        grid-template-columns: 50% 50%;
+        gap: 2rem 0;
+    }
+}
+
+
+@media(max-width: 420px) {
+    .IngredientsList {
+        /* margin: 1rem 5px;
+        flex-basis: auto; */
+        grid-template-columns: 100%;
+        gap: 2rem 0;
+    }
+}

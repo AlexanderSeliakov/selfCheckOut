@@ -1,0 +1,19 @@
+export const ERROR = 'ERROR'
+
+export const SHOW_MENU = 'SHOW_MENU'
+export const SELECTED_BURGER = 'SELECTED_BURGER'
+
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const DELETE_FROM_CART = 'DELETE_FROM_CART'
+
+export const GET_MEAL = 'GET_MEAL'
+export const REMOVE_MEAL = 'REMOVE_MEAL'
+
+export const ADD_INGREDIENT = 'ADD_INGREDIENT'
+export const REMOVE_INGREDIENT = 'REMOVE_INGREDIENT'
+
+export const REDUCE_AMOUNT = 'REDUCE_AMOUNT'
+export const INCREASE_AMOUNT = 'INCREASE_AMOUNT'
+
+export const CHECK_OUT = 'CHECK_OUT'
+export const CLOSE_CHECK_OUT = 'CLOSE_CHECK_OUT'

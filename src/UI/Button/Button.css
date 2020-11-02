@@ -1,0 +1,38 @@
+.Button {
+  background-color: transparent;
+  border-left-color: rgb(133, 133, 133);
+  border-top-color: rgb(133, 133, 133);
+  color: black;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Button:active {
+  color: black;
+  border-bottom-color: rgb(133, 133, 133);
+  border-right-color: rgb(133, 133, 133);
+}
+
+.Button:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+.Button:disabled {
+  color: rgb(187, 187, 187);
+}
+
+.Success {
+  color: #5C9210;
+}
+
+.Danger {
+  color: #944317;
+}

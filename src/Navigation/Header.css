@@ -1,0 +1,41 @@
+header{
+    height: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+@media(max-width: 665px){
+
+    header{
+        padding: 0;
+    }
+
+    .Button-toCart{
+        width: 20%;
+    }
+
+    .Button-HeaderBTN {
+        display: none;
+      }
+    .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        /* border: solid white; */
+        width: auto;
+        height: auto;
+
+    }
+    .mobileMenu span{
+        background-color: white;
+        width: 2rem;
+        margin: 3px 0;
+        height: 3px;
+    }
+}

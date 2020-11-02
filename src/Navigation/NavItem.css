@@ -1,0 +1,36 @@
+/* for mobile */
+.NavItem{
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.NavItem a{
+    text-decoration: none;
+    width: 100%;
+    padding: 16px 10px;
+    box-sizing: border-box;
+    display: block;
+    color: white;
+}
+
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active{
+    background-color: #437fff;
+    color: white;
+} 
+
+/* for desktop */
+@media(min-width: 500px){
+    .NavItem{
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 100%;
+    }
+    .NavItem a{
+        padding: 16px 30px;
+    }
+}
