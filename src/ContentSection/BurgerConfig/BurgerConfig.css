@@ -1,55 +1,29 @@
 .BurgerConfig {
     text-align: center;
-    /* height: auto; */
-    /* overflow:scroll; */
 }
 
 .Confing {
     width: 100%;
-    /* position: relative; */
-    /* float:left; */
-    /* width:30%; */
+    max-width: 500px;
+    position: relative;
     height: auto;
-    /* border: solid; */
     overflow: scroll;
-    /* display: flex;
-   flex-direction: column;
-   align-items: baseline;
-   justify-content: center; */
+}
+
+.Confing>img {
+    width: 100%;
+    position: relative;
+    height: auto;
+    overflow: scroll;
 }
 
 .IngredientsList {
-    /* flex-wrap: wrap;
-    display: flex;
-    justify-content: safe;
-    align-items: center;     */
-    /* border: solid; */
     height: auto;
     display: grid;
-    /* width: 100%; */
     grid-template-columns: 30% 30% 30%;
     grid-auto-rows: auto;
     gap: 1rem 5%;
 }
-
-/* .Ateria{
-    height:100%; 
-    position: relative;
-} */
-
-
-
-
-
-/* .Ingredient{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 25%;
-    margin: 1rem;
-    text-transform: capitalize; 
-} */
 
 .ateria {
     margin-top: 2rem;

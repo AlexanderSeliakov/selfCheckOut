@@ -68,7 +68,7 @@ class MenuList extends Component {
 
                                 <h2>{el.name}</h2>
 
-                                <img src={el.img} alt={el.name} />
+                                <img className={el.type === 'burger' && 'brgr'} src={el.img} alt={el.name} />
 
                                 <br />
 
